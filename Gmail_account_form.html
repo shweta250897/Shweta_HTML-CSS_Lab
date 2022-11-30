@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create an account</title>
+        <style>
+            body{
+                margin:0%;
+            }
+            .bg-img{
+                background-image: url("bg2.webp");
+                min-height: 600px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+            }
+            .container{
+                position: absolute;
+                top:15%;
+                left:35%;
+                min-width: 350px;
+                border: 1px solid white;
+                border-radius: 4px;
+                padding-left: 40px;
+            }
+            input{
+                width: 300px;
+                min-width: 100px;
+                border: none;
+                padding: 10px;
+                margin-bottom: 10px;
+                background-color: whitesmoke;
+                font-size: 20px;
+                font-family: 'Courier New', Courier, monospace;
+                margin-right: 40px;
+            }
+            input:focus{
+                outline:none;
+                color:purple;
+                background-color: pink;
+            }
+            button{
+                margin: 20px;
+                width: 80px;
+                border-radius: 4px;
+                height: 30px;
+                color: white;
+                font-size: 18px;
+                border: none;
+                background-color: blueviolet;
+            }
+
+
+        </style>
+
+    </head>
+    <body>
+        <center>
+        <div class="bg-img">
+        <form class="container">
+            <h1 style="color: white;"> Create Account</h1>
+            <input type="text" placeholder="full name">
+            <br><br>
+            <input type="number"placeholder="contact number">
+            <br><br>
+            <input type="email" placeholder="Enter email id">
+            <br><br>
+            <button>Reset</button>
+            <button>Submit</button>
+        </form>
+    </div>
+</center>
+    </body>
+</html>
